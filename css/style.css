@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul,
+li {
+  list-style: none;
+}
+
+
+.menu {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+    url(../soccer-bg.jpeg);
+}
+
+
+
+
+.menu h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  background: url('./soccer-bg.jpeg') no-repeat center center / cover;
+  position: relative;
+}
+
+
